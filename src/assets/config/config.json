@@ -1,14 +1,14 @@
 {
     "environment": "development",
     "keycloak": {
-        "url": "https://skills.xiv.in/auth",
+        "url": "https://skills.sunbirdrc.dev/auth",
         "realm": "sunbird-rc",
         "clientId": "registry-frontend"
     },
     "configFolder": "/assets/config/ui-config",
     "logoPath": "/assets/images/logo.png",
     "title": "Skill Use Case",
-    "baseUrl": "http://localhost:4200/skills/api/v1",
-    "schemaUrl": "http://localhost:4200/skills/api/docs/swagger.json",
+    "baseUrl": "https://skills.sunbirdrc.dev/skills/api/v1",
+    "schemaUrl": "https://skills.sunbirdrc.dev/skills/api/docs/swagger.json",
     "footerText": "Sunbird RC"
 }
